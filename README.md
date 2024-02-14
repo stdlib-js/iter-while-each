@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@esm/index.mjs';
+import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@v0.2.0-esm/index.mjs';
 ```
 
 #### iterWhileEach( iterator, predicate, fcn\[, thisArg] )
@@ -192,7 +192,7 @@ var count = ctx.count;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
 import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs';
-import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@esm/index.mjs';
+import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@v0.2.0-esm/index.mjs';
 
 function assert( v ) {
     if ( isnan( v ) ) {
