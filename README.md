@@ -253,6 +253,12 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/iter-until-each`][@stdlib/iter/until-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is false, invokes a function for each iterated value before returning the iterated value.</span>
+
 </section>
 
 <!-- /.related -->
@@ -328,6 +334,12 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/iter-while-each/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/iter-while-each/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/iter/until-each]: https://github.com/stdlib-js/iter-until-each
+
+<!-- </related-links> -->
 
 </section>
 
