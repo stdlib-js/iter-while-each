@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-while-each/tags). For example,
+
+```javascript
 import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@v0.2.3-esm/index.mjs';
 ```
 
@@ -192,7 +197,7 @@ var count = ctx.count;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
 import isnan from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs';
-import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@v0.2.3-esm/index.mjs';
+import iterWhileEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-while-each@esm/index.mjs';
 
 function assert( v ) {
     if ( isnan( v ) ) {
